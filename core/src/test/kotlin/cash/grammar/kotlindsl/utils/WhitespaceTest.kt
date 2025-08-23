@@ -192,7 +192,7 @@ internal class WhitespaceTest {
         expectedIndent = "\t",
       ),
         TestCase(
-            displayName = "maintains indentation when comments are present",
+            displayName = "maintains indentation when copyright comments are present",
             sourceText = """
           /*
            * Copyright (C) 2018 Square, Inc.
